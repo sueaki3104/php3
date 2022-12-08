@@ -70,7 +70,7 @@ foreach ($result as $record) {
   </header>
 
   <fieldset class="fieldset">
-    <legend>購入したウィスキーの一覧</legend>
+    <legend>購入したウィスキーの一覧（購入金額の高い順に並んでいます）</legend>
     <a href="./whisky_1_input.php">入力画面へ移動</a>
     <table>
       <thead>
