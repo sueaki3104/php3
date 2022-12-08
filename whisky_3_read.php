@@ -59,19 +59,17 @@ foreach ($result as $record) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/style_read.css">
 
   <title>購入したウィスキーの一覧</title>
 </head>
 
 <body>
-  <div class="header">
-    <h1>買ってきたウィスキーの自分だけのデータベース</h1>
-  </div>
+  <header class="header">
+      <h1>買ってきたウィスキーの自分だけのデータベース</h1>
+  </header>
 
-
-
-  <fieldset class="field">
+  <fieldset class="fieldset">
     <legend>購入したウィスキーの一覧</legend>
     <a href="./whisky_1_input.php">入力画面へ移動</a>
     <table>

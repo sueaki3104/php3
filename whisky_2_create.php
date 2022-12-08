@@ -40,7 +40,8 @@ $pdo = connect_to_db();
 
 
 // SQL作成実行
-$sql = 'INSERT INTO whisky_table (id, date_of_purchase, distillery_name, whisky_name, whisky_age, place, how_many, price, memory, created_at, updated_at) VALUES (NULL, :date_of_purchase, :distillery_name, :whisky_name, :whisky_age, :place, :how_many, :price, :memory, now(), now())';
+$sql = 'INSERT INTO whisky_table (id, date_of_purchase, distillery_name, whisky_name, whisky_age, place, how_many, price, memory, created_at, updated_at) 
+VALUES (NULL, :date_of_purchase, :distillery_name, :whisky_name, :whisky_age, :place, :how_many, :price, :memory, now(), now())';
 
 $stmt = $pdo->prepare($sql);
 // バインド変数を設定 PDO::PARAM_STR は「文字列だよ」って事。PDO::PARAM_INTは「数値だぜ」っていう意味。
