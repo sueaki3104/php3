@@ -1,0 +1,13 @@
+table,
+td,
+th {
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px auto;
+    text-align: center;
+}
+
+
+.field{
+    font-size: 12px;
+}
